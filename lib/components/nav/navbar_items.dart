@@ -5,13 +5,14 @@ import 'package:pozadkey_v2/themes/theme.dart';
 
 class NavBarItems extends StatefulWidget {
   String title;
-
+  double? fontSize;
   final Function onTap;
 
   NavBarItems({
     Key? key,
     required this.onTap,
     required this.title,
+    this.fontSize
   }) : super(key: key);
 
   @override
@@ -23,7 +24,7 @@ class _NavBarItemsState extends State<NavBarItems> {
   Widget build(BuildContext context) {
     final navFont = TextStyle(
         fontStyle: FontStyle.normal,
-        fontSize: 16,
+        fontSize: widget.fontSize ?? 16,
         letterSpacing: 0.5,
         fontFamily: 'SpaceGrotesk',
         color: NavItemColors.initialTextColor,

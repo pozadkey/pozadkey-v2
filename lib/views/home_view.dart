@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:pozadkey_v2/components/nav/navbar.dart';
 
+import 'sections/contact/contact.dart';
 import 'sections/intro/intro.dart';
 
 class HomeView extends StatefulWidget {
@@ -29,10 +30,7 @@ class _HomeViewState extends State<HomeView> {
                                 minHeight: constraints.maxHeight),
                             child: Column(
                               //mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                NavBar(),
-                                Intro(),
-                              ],
+                              children: [NavBar(), Intro(), Contact()],
                             ),
                           ),
                         ),
