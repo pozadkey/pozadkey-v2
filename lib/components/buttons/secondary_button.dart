@@ -6,7 +6,6 @@ import 'package:pozadkey_v2/themes/theme.dart';
 
 class SecondaryButton extends StatefulWidget {
   final String title;
-
   final Function onPressed;
   const SecondaryButton(
       {Key? key, required this.title, required this.onPressed})
@@ -49,7 +48,7 @@ class _SecondaryButtonState extends State<SecondaryButton> {
         child: Padding(
           padding: width >= 800
               ? EdgeInsets.symmetric(horizontal: 22, vertical: 18)
-              : EdgeInsets.all(6),
+              : EdgeInsets.all(12),
           child: Text(
             widget.title,
             style: buttonFont,
@@ -62,7 +61,7 @@ class _SecondaryButtonState extends State<SecondaryButton> {
         style: TextButton.styleFrom(
           backgroundColor: SecondaryButtonColors.initialBgColor,
           side: BorderSide(
-              color: SecondaryButtonColors.initialTextColor, width: 0.5),
+              color: SecondaryButtonColors.initialTextColor, width: 1),
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(1.0)),
         ),
@@ -70,4 +69,3 @@ class _SecondaryButtonState extends State<SecondaryButton> {
     );
   }
 }
-//Color.fromARGB(255, 68, 255, 127)

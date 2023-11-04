@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:pozadkey_v2/responsive/responsive.dart';
 import 'package:pozadkey_v2/views/sections/contact/desktop.dart';
-
+import 'package:pozadkey_v2/views/sections/contact/mobile.dart';
 
 class Contact extends StatefulWidget {
   const Contact({
@@ -21,7 +21,7 @@ class _ContactState extends State<Contact> {
     return Responsive(
       child: LayoutBuilder(builder: (context, constraints) {
         if (width <= 1200) {
-          return Desktop();
+          return Mobile();
         } else {
           return Desktop();
         }

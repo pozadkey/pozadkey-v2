@@ -18,6 +18,11 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Pozadkey -  Web & Mobile Engineer',
         theme: theme,
-        home: const HomeView());
+        initialRoute: '/',
+        routes: <String, WidgetBuilder>{
+          '/': (BuildContext context) => HomeView(),
+          '/works': (BuildContext context) => HomeView(),
+          '/about': (BuildContext context) => HomeView(),
+        });
   }
 }

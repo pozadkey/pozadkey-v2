@@ -18,6 +18,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   url_strategy: ^0.2.0
   font_awesome_flutter: ^10.6.0
+  intl: ^0.18.1
+  url_launcher: ^6.2.1
+  go_router: ^12.0.1
 
 dev_dependencies:
   flutter_test:
@@ -29,6 +32,11 @@ dev_dependencies:
 flutter:
   # Ensure Material Icons font is included
   uses-material-design: true
+
+  # Images
+  assets:
+    - assets/
+    - assets/images/
 
   # Define custom fonts and their styles
   fonts:

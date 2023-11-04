@@ -1,16 +1,17 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_constructors_in_immutables, sized_box_for_whitespace, must_be_immutable
 
 import 'package:flutter/material.dart';
+import 'package:pozadkey_v2/components/nav/mobile.dart';
 
 class NavBarButton extends StatefulWidget {
-  IconData myMenu;
+  
   Color hamburgerColor;
   double hamburgerSize;
   final Function onPressed;
 
   NavBarButton(
       {Key? key,
-      required this.myMenu,
+     
       required this.onPressed,
       required this.hamburgerSize,
       required this.hamburgerColor})
@@ -31,7 +32,7 @@ class _NavBarButtonState extends State<NavBarButton> {
             widget.onPressed();
           },
           child: Icon(
-           widget.myMenu,
+           myMenu,
             color: widget.hamburgerColor,
             size: widget.hamburgerSize,
           ),

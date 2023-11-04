@@ -18,6 +18,13 @@ ThemeData theme = ThemeData(
         fontFamily: 'ClashDisplay',
         fontWeight: FontWeight.w500,
         letterSpacing: 0.2),
+// Header text style mobile
+    headlineMedium: TextStyle(
+        fontSize: 58,
+        color: Color.fromRGBO(255, 255, 255, 1),
+        fontFamily: 'ClashDisplay',
+        fontWeight: FontWeight.w500,
+        letterSpacing: 0.2),
 
     // Medium text style
     displayMedium: TextStyle(
@@ -25,6 +32,31 @@ ThemeData theme = ThemeData(
         color: Color.fromARGB(255, 239, 239, 239),
         fontFamily: 'SpaceGrotesk',
         fontWeight: FontWeight.w400,
+        height: 1.5,
+        letterSpacing: 0.2),
+
+    // default text style
+    displaySmall: TextStyle(
+        fontSize: 16,
+        color: Colors.white,
+        fontFamily: 'SpaceGrotesk',
+        fontWeight: FontWeight.w400,
+        height: 1.5,
+        letterSpacing: 0.2),
+
+    titleSmall: TextStyle(
+        fontSize: 14,
+        color: Colors.white,
+        fontFamily: 'SpaceGrotesk',
+        fontWeight: FontWeight.w400,
+        height: 1.5,
+        letterSpacing: 0.2),
+
+    titleMedium: TextStyle(
+        fontSize: 32,
+        color: Color.fromRGBO(255, 255, 255, 1),
+        fontFamily: 'ClashDisplay',
+        fontWeight: FontWeight.w500,
         letterSpacing: 0.2),
   ),
 );

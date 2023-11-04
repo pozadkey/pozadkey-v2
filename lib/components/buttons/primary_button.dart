@@ -47,7 +47,7 @@ class _PrimaryButtonState extends State<PrimaryButton> {
         child: Padding(
           padding: width >= 800
               ? EdgeInsets.symmetric(horizontal: 22, vertical: 18)
-              : EdgeInsets.all(6),
+              : EdgeInsets.all(12),
           child: Text(
             widget.title,
             style: buttonFont,
