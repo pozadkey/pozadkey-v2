@@ -48,7 +48,7 @@ class _DesktopState extends State<Desktop> {
             crossAxisCount: 2,
             crossAxisSpacing: 2,
             mainAxisSpacing: 2,
-            childAspectRatio: width >= 1260 ? 1.114 : 1.1),
+            childAspectRatio: width >= 1260 ? 1.114 : 1.05),
         itemCount: webProjectsModelList.length,
         scrollDirection: Axis.vertical,
         shrinkWrap: true,
@@ -95,24 +95,24 @@ class _DesktopState extends State<Desktop> {
               SizedBox(
                 height: 10,
               ),
-              FittedBox(
-                child: Row(
-                  children: webProjects.stack
-                      .map((tech) => Container(
-                          padding: EdgeInsets.all(5),
-                          decoration: BoxDecoration(
-                              color: Color.fromRGBO(43, 43, 43, 1),
-                              borderRadius: BorderRadius.circular(2.0)),
-                          child: Text(
-                            tech,
-                            style: stackFont,
-                          )))
-                      .expand((widget) => [
-                            widget,
-                            SizedBox(width: 10),
-                          ])
-                      .toList(),
-                ),
+              Row(
+                children: webProjects.stack
+                    .map((tech) => FittedBox(
+                          child: Container(
+                              padding: EdgeInsets.all(5),
+                              decoration: BoxDecoration(
+                                  color: Color.fromRGBO(43, 43, 43, 1),
+                                  borderRadius: BorderRadius.circular(2.0)),
+                              child: Text(
+                                tech,
+                                style: stackFont,
+                              )),
+                        ))
+                    .expand((widget) => [
+                          widget,
+                          SizedBox(width: 10),
+                        ])
+                    .toList(),
               ),
               SizedBox(
                 height: 10,
@@ -141,15 +141,15 @@ class _DesktopState extends State<Desktop> {
               SizedBox(
                 height: 10,
               ),
-              if (webProjects.github.isEmpty)
+              if (webProjects.live.isEmpty)
                 FittedBox(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       LinkIcon(
-                        icon: FontAwesomeIcons.xTwitter,
-                        onPressed: () => openUrl(webProjects.live),
+                        icon: FontAwesomeIcons.github,
+                        onPressed: () => openUrl(webProjects.github),
                       ),
                     ],
                   ),

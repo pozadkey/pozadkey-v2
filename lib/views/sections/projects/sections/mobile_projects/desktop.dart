@@ -141,21 +141,21 @@ class _DesktopState extends State<Desktop> {
               SizedBox(
                 height: 10,
               ),
-              if (mobileProjects.github.isEmpty) FittedBox(
+              if (mobileProjects.appstore.isEmpty) FittedBox(
                 child: Row(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          LinkIcon(
-                            icon: FontAwesomeIcons.googlePlay,
-                            onPressed: () => openUrl(mobileProjects.playstore),
+                         LinkIcon(
+                            icon: FontAwesomeIcons.github,
+                            onPressed: () => openUrl(mobileProjects.github),
                           ),
                           SizedBox(
                             width: 10,
                           ),
                           LinkIcon(
-                            icon: FontAwesomeIcons.appStoreIos,
-                            onPressed: () => openUrl(mobileProjects.appstore),
+                            icon: FontAwesomeIcons.googlePlay,
+                            onPressed: () => openUrl(mobileProjects.playstore),
                           ),
                         ],
                       ),

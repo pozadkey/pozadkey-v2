@@ -21,10 +21,27 @@ List<MobileProjectsModel> mobileProjectsList = [
       title: 'OOU-LLB21',
       image: 'assets/images/oou-llb.JPG',
       info:
-          'A yearbook application built for a university\'s law faculty.  Built for Android and iOS platforms, it displays hard-coded data about the faculty and its students.',
+          'A cross-platform yearbook app for a university\'s law faculty, showcasing information about the faculty and its students on Android and iOS.',
       stack: ['Dart', 'Flutter'],
       playstore:
           'https://play.google.com/store/apps/details?id=com.pozadkey.oou_llb_21',
       appstore: 'https://apps.apple.com/ng/app/oou-llb21/id1632992447',
       github: 'https://github.com/pozadkey/oou-llb-21'),
+  MobileProjectsModel(
+      title: 'Todoskido',
+      image: 'assets/images/todoskido.jpg',
+      info: 'A streamlined notes app  developed for user-friendly note-taking.',
+      stack: ['Dart', 'Flutter', 'Riverpod', 'Hive'],
+      playstore: 'testing',
+      appstore: '',
+      github: 'https://github.com/pozadkey/todoskido'),
+  MobileProjectsModel(
+      title: 'Block Rush',
+      image: 'assets/images/block_rush.jpg',
+      info:
+          'A fun puzzle game where you strategically clear lines for the best scores.',
+      stack: ['Dart', 'Flutter'],
+      playstore: 'testing',
+      appstore: '',
+      github: 'https://github.com/pozadkey/block_rush'),
 ];

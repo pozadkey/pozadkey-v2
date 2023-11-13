@@ -1,7 +1,5 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:flutter/material.dart';
-
 class StackModel {
   String title;
   double width;
@@ -14,51 +12,67 @@ class StackModel {
 
 List<StackModel> stackList = [
   StackModel(
+    title: 'Dart',
+    width: 80,
+  ),
+  StackModel(
+    title: 'Flutter',
+    width: 50,
+  ),
+  StackModel(
     title: 'JavaScript',
     width: 80,
   ),
   StackModel(
-    title: 'Dart',
+    title: 'TypeScript',
     width: 50,
-  ),
-  StackModel(
-    title: 'Flutter',
-    width: 80,
-  ),
-  StackModel(
-    title: 'Firebase',
-    width: 50,
-  ),
-  StackModel(
-    title: 'Cloud Firestore',
-    width: 80,
   ),
   StackModel(
     title: 'Node.js',
+    width: 80,
+  ),
+  StackModel(
+    title: 'Express',
     width: 50,
+  ),
+  StackModel(
+    title: 'MongoDB',
+    width: 50,
+  ),
+  StackModel(
+    title: 'Firebase',
+    width: 80,
+  ),
+  StackModel(
+    title: 'Postgres',
+    width: 50,
+  ),
+  StackModel(
+    title: 'Sqlite',
+    width: 80,
+  ),
+  StackModel(
+    title: 'GraphQL',
+    width: 50,
+  ),
+  StackModel(
+    title: 'TypeORM',
+    width: 50,
+  ),
+  StackModel(
+    title: 'Prisma',
+    width: 80,
   ),
   StackModel(
     title: 'Riverpod',
     width: 50,
   ),
   StackModel(
-    title: 'MongoDb',
-    width: 80,
-  ),
-  StackModel(
-    title: 'Express.js',
+    title: 'TypeORM',
     width: 50,
   ),
   StackModel(
-    title: 'Mongoose',
-    width: 80,
-  ),
-  StackModel(
-    title: 'Mocha',
-    width: 50,
-  ),
-  StackModel(
-    title: 'Android Studio',
+    title: 'Hive',
     width: 50,
   ),
   StackModel(

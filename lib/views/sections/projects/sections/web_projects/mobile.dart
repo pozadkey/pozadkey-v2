@@ -133,14 +133,14 @@ class _MobileState extends State<Mobile> {
             SizedBox(
               height: 10,
             ),
-            webProjects.github.isEmpty
+            webProjects.live.isEmpty
                 ? Row(
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       LinkIcon(
-                        icon: FontAwesomeIcons.xTwitter,
-                        onPressed: () => openUrl(webProjects.live),
+                        icon: FontAwesomeIcons.github,
+                        onPressed: () => openUrl(webProjects.github),
                       ),
                     ],
                   )

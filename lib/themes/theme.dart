@@ -8,7 +8,7 @@ ThemeData theme = ThemeData(
       background: Colors.black,
       primary: Colors.grey[900]!,
       secondary: Colors.grey[800]!),
-
+      
   // Text Theme
   textTheme: const TextTheme(
     // Header text style

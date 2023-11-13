@@ -139,15 +139,15 @@ class _MobileState extends State<Mobile> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       LinkIcon(
-                        icon: FontAwesomeIcons.googlePlay,
-                        onPressed: () => openUrl(mobileProjects.playstore),
+                        icon: FontAwesomeIcons.github,
+                        onPressed: () => openUrl(mobileProjects.github),
                       ),
                       SizedBox(
                         width: 10,
                       ),
                       LinkIcon(
-                        icon: FontAwesomeIcons.appStoreIos,
-                        onPressed: () => openUrl(mobileProjects.appstore),
+                        icon: FontAwesomeIcons.googlePlay,
+                        onPressed: () => openUrl(mobileProjects.playstore),
                       ),
                     ],
                   ),
