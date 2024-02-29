@@ -98,7 +98,7 @@ class _DesktopState extends State<Desktop> {
                             title: 'Contact Me',
                             onPressed: () {
                               openUrl(
-                                  'mailto:hello@pozadkey.com?subject=Hello');
+                                  'mailto:dajakaiye1@gmail.com?subject=Hello');
                             }),
                       ),
                     ],

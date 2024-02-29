@@ -142,7 +142,7 @@ class _DesktopState extends State<Desktop> {
                         title: 'Explore Projects',
                         onPressed: () => Scrollable.ensureVisible(
                             widget.projectsKey.currentContext!,
-                            alignment: 1,
+                            alignment: 0.0,
                             duration: Duration(seconds: 1),
                             curve: Curves.ease),
                       )),
@@ -154,7 +154,7 @@ class _DesktopState extends State<Desktop> {
                     child: SecondaryButton(
                         title: 'Start Project',
                         onPressed: () {
-                          openUrl('mailto:hello@pozadkey.com?subject=Hello');
+                          openUrl('mailto:dajakaiye1@gmail.com?subject=Hello');
                         }),
                   ),
                 ],

@@ -5,7 +5,6 @@ import 'package:pozadkey_v2/components/footer/footer.dart';
 import 'package:pozadkey_v2/components/nav/navbar.dart';
 import 'package:pozadkey_v2/views/sections/about/about.dart';
 import 'package:pozadkey_v2/views/sections/projects/tabs/projects_tab.dart';
-
 import 'sections/contact/contact.dart';
 import 'sections/intro/intro.dart';
 

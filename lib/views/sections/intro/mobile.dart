@@ -145,7 +145,7 @@ class _MobileState extends State<Mobile> {
                       title: 'Explore Projects',
                       onPressed: () => Scrollable.ensureVisible(
                           widget.projectsKey.currentContext!,
-                          alignment: 1,
+                          alignment: 0.0,
                           duration: Duration(seconds: 1),
                           curve: Curves.ease),
                     )),
@@ -157,7 +157,7 @@ class _MobileState extends State<Mobile> {
                   child: SecondaryButton(
                       title: 'Start Project',
                       onPressed: () {
-                        openUrl('mailto:hello@pozadkey.com?subject=Hello');
+                        openUrl('mailto:dajakaiye1@gmail.com?subject=Hello');
                       }),
                 ),
               ],

@@ -37,7 +37,7 @@ class _DesktopState extends State<Desktop> {
             width: 1200,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(3.0),
-           color: Color.fromRGBO(15, 15, 15, 1),
+              color: Color.fromRGBO(15, 15, 15, 1),
             ),
             padding: EdgeInsets.symmetric(vertical: 60),
             child: Column(
@@ -51,9 +51,9 @@ class _DesktopState extends State<Desktop> {
                 ),
                 NavBarItems(
                     onTap: () {
-                      openUrl('mailto:hello@pozadkey.com?subject=Hello');
+                      openUrl('mailto:dajakaiye1@gmail.com?subject=Hello');
                     },
-                    title: '→ Hello@pozadkey.com',
+                    title: '→ Send A Message',
                     fontSize: 50),
                 SizedBox(
                   height: 40,

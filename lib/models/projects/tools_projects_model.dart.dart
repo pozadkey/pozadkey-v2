@@ -15,7 +15,6 @@ class ToolProjectsModel {
 }
 
 List<ToolProjectsModel> toolProjectsList = [
-
   ToolProjectsModel(
       title: 'Quick Button',
       image: '',

@@ -30,9 +30,10 @@ List<MobileProjectsModel> mobileProjectsList = [
   MobileProjectsModel(
       title: 'Todoskido',
       image: 'assets/images/todoskido.jpg',
-      info: 'A streamlined notes app  developed for user-friendly note-taking.',
+      info: 'A streamlined notes app developed for user-friendly note-taking.',
       stack: ['Dart', 'Flutter', 'Riverpod', 'Hive'],
-      playstore: 'testing',
+      playstore:
+          'https://play.google.com/store/apps/details?id=com.pozadkey.todoskido',
       appstore: '',
       github: 'https://github.com/pozadkey/todoskido'),
   MobileProjectsModel(
@@ -41,7 +42,8 @@ List<MobileProjectsModel> mobileProjectsList = [
       info:
           'A fun puzzle game where you strategically clear lines for the best scores.',
       stack: ['Dart', 'Flutter'],
-      playstore: 'testing',
+      playstore:
+          'https://play.google.com/store/apps/details?id=com.pozadkey.block_rush',
       appstore: '',
       github: 'https://github.com/pozadkey/block_rush'),
 ];

@@ -179,9 +179,8 @@ class _MobileState extends State<Mobile> {
                                     _isVisible = false;
                                     myMenu = FontAwesomeIcons.bars;
                                   });
-
                                   openUrl(
-                                      'mailto:hello@pozadkey.com?subject=Hello');
+                                      'mailto:dajakaiye1@gmail.com?subject=Hello');
                                 },
                               ))
                         ],

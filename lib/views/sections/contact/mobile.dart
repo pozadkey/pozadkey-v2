@@ -49,9 +49,9 @@ class _MobileState extends State<Mobile> {
           ),
           NavBarItems(
               onTap: () {
-                openUrl('mailto:hello@pozadkey.com?subject=Hello');
+                openUrl('mailto:dajakaiye1@gmail.com?subject=Hello');
               },
-              title: '→ Hello@pozadkey.com',
+              title: '→ Send A Message',
               fontSize: 24),
           SizedBox(
             height: 30,
